@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+#container{
+	margin-bottom: 26px; 
+}
+
+
+.notice{
+	width: 100%;
+	height: 218px;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.notice li{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+
+.fonts{
+	width: 12px;
+	height: 12px;
+	color: #777A7D;
+}
+
+.wrapper {
+    margin: 0 auto;
+	height:auto;
+}
+.loginBox {
+	float:right;
+	margin-right:100px;
+    background-color: #FEFEFE;
+    border: 1px solid #BfD6E1;
+    border-radius: 5px;
+    color: #444;
+    font: 14px 'Microsoft YaHei','微软雅黑';
+    margin: 0 auto;
+    width: 388px;
+	z-index:1;
+}
+.loginBox h1
+{
+	font: 20px 'Microsoft YaHei','微软雅黑';
+	color:#900;
+	text-align:center;
+}
+.loginBox .loginBoxCenter {
+    border-bottom: 1px solid #DDE0E8;
+    padding: 0 24px;
+}
+.loginBox .loginBoxCenter p {
+    margin-bottom: 10px
+}
+.loginBox .loginBoxButtons {
+    background-color: #F0F4F6;
+    border-top: 1px solid #FFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 28px;
+    overflow: hidden;
+    padding: 20px 24px;
+    vertical-align: center;
+}
+.loginBox .loginInput {
+    border: 1px solid #D2D9dC;
+    border-radius: 2px;
+    color: #444;
+    font: 12px 'Microsoft YaHei','微软雅黑';
+    padding: 8px 14px;
+    margin-bottom: 8px;
+    width: 310px;
+}
+.loginBox .loginInput:FOCUS {
+    border: 1px solid #B7D4EA;
+    box-shadow: 0 0 8px #B7D4EA;
+}
+.loginBox .loginBtn {
+    background-image: -moz-linear-gradient(top, #B5DEF2, #85CFEE);
+    border: 1px solid #98CCE7;
+    border-radius: 20px;
+    box-shadow:inset rgba(255,255,255,0.6) 0 1px 1px, rgba(0,0,0,0.1) 0 1px 1px;
+    color: #900;
+    cursor: pointer;
+    float: right;
+    font: bold 13px Arial;
+    padding: 5px 14px;
+}
+
+.loginBox .loginBtn:nth-of-type(2){
+    margin-left: 20px;
+}
+
+.loginBox .loginBtn:HOVER {
+    background-image: -moz-linear-gradient(to top, #B5DEF2, #85CFEE);
+}
+.loginBox a.forgetLink{
+    color: #ABABAB;
+    cursor: pointer;
+    float: right;
+    font: 11px/20px Arial;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.loginBox a.forgetLink:HOVER {
+    text-decoration: none;
+	color:#900;
+}
+.loginBox input#remember {
+    vertical-align: middle;
+    margin-top: 2px;
+}
+.loginBox label[for="remember"] {
+    font: 11px Arial;
+}
+.registerBtn
+{
+	margin-left:35%;}
+.loginBoxButtons a.registerBtn
+{
+	color:#666;
+    cursor: pointer;
+    font: 11px/20px Arial;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.loginBoxButtons a.registerBtn:hover,.loginBoxButtons a.registerBtn:active
+{
+	text-decoration: none;
+	color:#900;
+	font-size:12px;
+}
+
+
+#errorINfo{
+	display: none;
+}
